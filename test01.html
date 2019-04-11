@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>莫名其妙的登陆页面</title>
+    <script>
+        window.onload=function () {
+            document.getElementById("btn").onclick=function(){
+                var name = document.getElementById("name").value;
+                var pwd = document.getElementById("pwd").value;
+                alert("姓名："+name+"，密码："+pwd);
+                //while (1==1)alert("无限弹框")
+            }
+        }
+    </script>
+</head>
+<body>
+<iframe src="http://www.w3school.com.cn/h.asp"></iframe><br>
+用户名：<input type="text" id="name"/><br>
+密码：<input type="password" id="pwd"><br>
+性别：<input type="radio" name="gender"/>男<input type="radio" name="gender"/>女<br>
+头像：<input type="file"/><br>
+地区：<select><option>北京</option>
+    <option>上海</option><option>广州</option><option>深圳</option></select>
+<form>
+    <table border="2">
+        <tr><td>小红</td><td>女</td><td>25</td></tr>
+        <tr><td>小黄</td><td>女</td><td>25</td></tr>
+        <tr><td>小黑</td><td>女</td><td>26</td></tr>
+    </table>
+</form><br>
+<ul class="list-a news_top">
+	<li><a target="_blank" href="https://news.sina.com.cn/c/xl/2019-03-30/doc-ihtxyzsm1666360.shtml">回望习近平欧洲之行：“相知相亲”摩纳哥</a></li>
+	<li><a target="_blank" href="https://news.sina.com.cn/c/2019-03-30/doc-ihsxncvh6779082.shtml">当年他们为我们牺牲 今天请为他们做一件事</a></li>
+</ul>
+<ol class="list-a news_top">
+	<li><a target="_blank" href="https://news.sina.com.cn/c/xl/2019-03-30/doc-ihtxyzsm1658165.shtml">中央全面深化改革委员会成立一年间</a></li>
+	<li><a target="_blank" href="http://news.sina.com.cn/zt_d/mzgg60/">西藏民主改革60周年</a></li>
+</ol>
+评论：<textarea cols="10" rows="2"></textarea><br>
+
+<input type="button" value="注册" id="btn"/><br>
+<img src="Jenkins01.png">
+
+</body>
+</html>
